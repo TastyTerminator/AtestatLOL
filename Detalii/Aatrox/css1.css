@@ -1,0 +1,11 @@
+* {
+	margin:0px;
+
+}
+body {
+	width:100%;
+	overflow-x:hidden;
+	background-image:url("../Detalii/Aatrox/aa.jpg");
+	background-size: 100%;
+	background-repeat:no-repeat;
+}
