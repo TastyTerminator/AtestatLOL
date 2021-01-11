@@ -1,0 +1,78 @@
+.sugestiedeprezentare .c-img {
+  object-fit: cover;
+  object-position: 100% 0;
+
+  width: 1465px;
+  height: 350px;
+}
+#champion {
+	display:flex;
+	flex-wrap:wrap;
+	margin:80px;
+	margin-top:5px;
+}
+#detalii {
+	display:flex;
+	flex-wrap:wrap;
+  text-align:left;
+	margin:0px;
+	padding:15px;
+	margin-top:80px;
+  width: 530px;
+  background-color: #211212;
+  border:#211212 2px;
+  border-style: solid;
+  border-style: inset;
+  border-color: #000000 ;
+
+}
+.c-name1 {
+font-family: verdana;
+font-weight: bold;
+font-size: 20px;
+letter-spacing: 2px;
+word-spacing: 2px;
+color: #FFCC00;
+text-decoration: none;
+font-style: normal;
+font-variant: normal;
+text-transform: none;
+-webkit-text-stroke: 1px black;
+}
+.c-name2 {
+font-family: verdana;
+font-weight: bold;
+font-size: 20px;
+letter-spacing: 2px;
+word-spacing: 2px;
+color: #FFFFFF;
+text-decoration: none;
+font-style: normal;
+font-variant: normal;
+text-transform: none;
+-webkit-text-stroke: 1px black;
+}
+.poza {
+ text-align:center;
+	border: 6px;
+  border-style: solid;
+  border-style: inset;
+  border-color: #2C3E50 ;
+	margin:15px;
+  background-color: #5D6D7E;
+  width: 450px;
+}
+.poza .c-img {
+  object-position: left;
+  width: 254px;
+  height: 600px;
+}
+.statistica {
+  text-align:center;
+	border:#211212 2px;
+  border-style: solid;
+  border-style: inset;
+  border-color: #FFCC00 ;
+	padding:5px;
+	margin:5px;
+}
