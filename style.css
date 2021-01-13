@@ -10,8 +10,15 @@
 	flex-wrap:wrap;
 	margin:80px;
 	margin-top:5px;
+  margin-left:200px;
 }
-#detalii {
+.causta {
+
+  display:flex;
+	flex-wrap:wrap;
+  background-color: #211212;
+}
+.detalii {
 	display:flex;
 	flex-wrap:wrap;
   text-align:left;
@@ -21,9 +28,7 @@
   width: 530px;
   background-color: #211212;
   border:#211212 2px;
-  border-style: solid;
-  border-style: inset;
-  border-color: #000000 ;
+
 
 }
 .c-name1 {
@@ -59,7 +64,7 @@ text-transform: none;
   border-style: inset;
   border-color: #2C3E50 ;
 	margin:15px;
-  background-color: #5D6D7E;
+  background-color: #211212;
   width: 450px;
 }
 .poza .c-img {
@@ -67,12 +72,22 @@ text-transform: none;
   width: 254px;
   height: 600px;
 }
-.statistica {
-  text-align:center;
-	border:#211212 2px;
-  border-style: solid;
-  border-style: inset;
-  border-color: #FFCC00 ;
-	padding:5px;
-	margin:5px;
+
 }
+.tg  {border:none;border-collapse:collapse;border-spacing:0;}
+.tg td{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;
+  padding:10px 5px;word-break:normal;}
+.tg th{border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-jp4g{background-color:#211212;border-color:inherit;color:#ffcc00;font-size:100%;font-weight:bold;text-align:left;
+  vertical-align:top}
+.tg .tg-22xi{background-color:#211212;border-color:inherit;color:#ffffff;text-align:left;vertical-align:top}
+.tg .tg-wbcu{background-color:#211212;border-color:inherit;color:#ffffff;font-family:Verdana, Geneva, sans-serif !important;;
+  text-align:left;vertical-align:top}
+.tg .tg-hty1{background-color:#211212;border-color:inherit;color:#ffcc00;font-family:Verdana, Geneva, sans-serif !important;;
+  font-size:100%;font-style:italic;font-weight:bold;text-align:left;vertical-align:top}
+
+.tg .tg-wn6m{background-color:#211212;color:#ffcc00;font-family:Verdana, Geneva, sans-serif !important;;font-size:100%;
+  font-style:italic;font-weight:bold;text-align:left;vertical-align:top}
+.tg .tg-k090{background-color:#211212;color:#ffffff;font-family:Verdana, Geneva, sans-serif !important;;font-size:100%;
+  text-align:left;vertical-align:top}
