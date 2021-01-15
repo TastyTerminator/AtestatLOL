@@ -3,14 +3,14 @@
 	display:flex;
 	flex-wrap:wrap;
 	margin:80px;
-	margin-top:5px;
+	margin-top:30px;
   margin-left:200px;
 }
 .causta {
 
   display:flex;
 	flex-wrap:wrap;
-  background-color: #211212;
+  background-color: #302b2b;
 }
 .detalii {
 	display:flex;
@@ -20,8 +20,8 @@
 	padding:15px;
 	margin-top:80px;
   width: 530px;
-  background-color: #211212;
-  border:#211212 2px;
+  background-color: #302b2b;
+  border:#302b2b 2px;
 
 
 }
@@ -90,7 +90,6 @@ text-transform: none;
 .outer{
     display: grid;
     grid-template: auto / auto;
-    // or you can assign a name for this block
 }
 .content{
     grid-area: 1 / 1 / 2 / 2;
@@ -105,3 +104,21 @@ text-transform: none;
     width: 1465px;
     height: 350px;
 }
+
+#poveste-abilitati {
+	display:flex;
+	flex-wrap:wrap;
+	margin:80px;
+	margin-top:0px;
+  margin-left:50px;
+}
+
+.tg  {border-collapse:separate;border-spacing:0;}
+.tg td{font-family:Verdana, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{font-family:Verdana, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-mk6l{color:#ffffff;text-align:left;vertical-align:top;font-family:Verdana;}
+.tg .tg-hfk9{text-align:left;vertical-align:top;font-family:Verdana;}
+.tg .tg-1tss{background-color:#211212;border: 6px;border-style: solid;border-style: inset;border-color: #2C3E50 ;color:#ffcb2f;font-family:Verdana;
+  font-size:20px;text-align:center;vertical-align:top}
