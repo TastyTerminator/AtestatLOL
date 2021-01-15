@@ -50,7 +50,7 @@ body {
 
 }
 #champ-title i {
-	margin:20px;
+	margin-top:20px;
 	margin-left:80px;
 	float:left;
 	text-shadow: rgb(0, 0, 0) 2px 2px 2px;
@@ -101,14 +101,14 @@ body {
 .row2 .search-container input[type=text] {
   padding: 6px;
   margin-top: 30px;
-  margin-left : 900px;
+  float:right;
   font-size: 17px;
   border: none;
 }
 
 .row2 .button {
-	margin-left : 800px;
-	margin-top: -50px;
+  float:right;
+	margin-top: 15px;
 	-moz-box-shadow:inset 0px 0px 0px 0px #a6827e;
 	-webkit-box-shadow:inset 0px 0px 0px 0px #a6827e;
 	box-shadow:inset 0px 0px 0px 0px #a6827e;
