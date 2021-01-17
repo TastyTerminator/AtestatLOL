@@ -9,6 +9,7 @@ body {
 	background-attachment: fixed;
   background-size: cover;
 	background-size: 100%;
+	overflow-x: auto;
 }
 
 .row {
