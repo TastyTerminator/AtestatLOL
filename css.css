@@ -99,17 +99,12 @@ body {
   padding:15px;
 }
 
-.row2 .search-container input[type=text] {
-  padding: 6px;
-  margin-top: 30px;
-  float:right;
-  font-size: 17px;
-  border: none;
-}
+
 
 .row2 .button {
   float:right;
 	margin-top: 15px;
+	margin-right: 5%;
 	-moz-box-shadow:inset 0px 0px 0px 0px #a6827e;
 	-webkit-box-shadow:inset 0px 0px 0px 0px #a6827e;
 	box-shadow:inset 0px 0px 0px 0px #a6827e;
