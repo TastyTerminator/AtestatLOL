@@ -3,23 +3,38 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | New Unity Project (1)</title>
+    <title>Pac-Lol</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
+    <link rel="stylesheet" href="../css.css">
     <script src="TemplateData/UnityProgress.js"></script>
     <script src="Build/UnityLoader.js"></script>
     <script>
-      var unityInstance = UnityLoader.instantiate("unityContainer", "Build/boombobm.json", {onProgress: UnityProgress});
+      var unityInstance = UnityLoader.instantiate("unityContainer", "Build/Pacman-Lol.json", {onProgress: UnityProgress});
     </script>
   </head>
   <body>
+		<div class="row">
+			<div id="big-title">
+				<div class="column-img"><a href="#row3"><img src="../Photo/league-of-legends.png" class="logo"></a></div>
+				<div class="column-title"><i>League of Legends</i></div>
+				<div class="column-a">
+					<em><a href="../Home.html" class="menu">Home</a>
+				</div>
+			</div>
+        </div>
+		<div class="row3"class="wikitable" style="height:100%;">
+
+		</div>
+    <div id="game">
     <div class="webgl-content">
       <div id="unityContainer" style="width: 960px; height: 600px"></div>
       <div class="footer">
         <div class="webgl-logo"></div>
         <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
-        <div class="title">New Unity Project (1)</div>
+        <div class="title">Pac-Lol</div>
       </div>
     </div>
+  </div>
   </body>
 </html>

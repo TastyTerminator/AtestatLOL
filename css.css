@@ -95,9 +95,7 @@ body {
 	padding:15px;
 	float:left;
 }
-.row2 .search-container {
-  padding:15px;
-}
+
 
 
 
@@ -316,15 +314,3 @@ footer > h5 {
 	font-size:115%;
 	padding-bottom:20px;
 }
-
-
-
-
-
-
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
